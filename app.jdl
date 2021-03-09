@@ -1,0 +1,11 @@
+entity Exam {
+  title String
+}
+entity Question {
+  content String
+}
+relationship OneToMany {
+  Exam{questions} to Question{exam}
+}
+
+dto Exam, Question with mapstruct

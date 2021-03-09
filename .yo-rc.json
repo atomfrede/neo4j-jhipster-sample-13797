@@ -41,6 +41,8 @@
     "prodDatabaseType": "neo4j",
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en"]
+    "languages": ["en"],
+    "entities": ["Exam", "Question"],
+    "lastLiquibaseTimestamp": 1615269349000
   }
 }
